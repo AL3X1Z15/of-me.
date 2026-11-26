@@ -42,6 +42,12 @@ nav svg,.nav-photo,.collection .coverart,.home-photo,.portrait-layer img,.tile-a
 .art-manual input[type=range]{padding:0;min-height:26px}
 .collection .coverart img.thread-cover-art{object-fit:contain;width:100%;height:100%}
 
-/* v0.2.5: show a native colour picker and unobtrusive save confirmation. */
+/* v0.2.7: show a native colour picker and unobtrusive save confirmation. */
 #paperColor{width:62px;height:42px;padding:4px;flex:none;cursor:pointer}
 #appearanceStatus{min-height:1.5em;margin:0;overflow-wrap:anywhere}
+
+/* v0.2.7: progressive wheel labels and single-photo upload. */
+.wheel .wheel-root-label{font-size:9px;font-weight:650}.wheel .wheel-branch-label{font-size:8px;font-weight:600}.wheel .wheel-selected{stroke:#493c34;stroke-width:1.6}.wheel path:focus-visible{stroke:#493c34;stroke-width:2}.wheel-hint{text-align:center}#previewUpload[hidden]{display:none!important}#offlinePhotoPreview{max-height:240px;object-fit:contain;margin-top:8px}
+
+/* Blank sectors remain visible and do not reveal hidden words on accidental taps. */
+.wheel path.wheel-unrevealed{cursor:default;pointer-events:none}
