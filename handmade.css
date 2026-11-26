@@ -51,3 +51,6 @@ nav svg,.nav-photo,.collection .coverart,.home-photo,.portrait-layer img,.tile-a
 
 /* Blank sectors remain visible and do not reveal hidden words on accidental taps. */
 .wheel path.wheel-unrevealed{cursor:default;pointer-events:none}
+
+/* 0.2.8 */
+.advanced-feelings{padding:12px 0 3px}.advanced-feelings label{margin-bottom:-9px}.preview-unavailable{display:block;color:var(--muted);font-size:12px;text-align:center}.backup-preferences{border-top:1px dashed var(--line);padding-top:14px}.auto-thumb{object-fit:cover}.advanced-feelings select{max-width:100%;min-width:0}
